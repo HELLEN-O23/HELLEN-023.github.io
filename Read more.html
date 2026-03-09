@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> hellen-portofolio</title>
+  <style>
+    .body{
+        background-color: blue;
+        color: beige;
+    }
+    div.gallery{
+      margin: 5px;
+      float:left;
+      width: 180px;
+      border: 1px;
+    }
+    div.gallery:hover{
+      border: 1px;
+
+    }
+    div.gallery img{
+      width:100%;
+      height: auto;
+    }
+    .responsive{
+      padding: 0 6px;
+      float:left;
+      width: 24%;
+    }
+   @media only screen and (max-widht:700px) {
+    .responsive{
+      width: 49%;
+      margin: 6px 0;
+    }
+  }
+    @media only screen and (max-widht:500px) {
+      .responsive{
+        width: 100%;
+      }
+      
+    }
+    .clearfix:after{
+      content:"";
+      display: table;
+      clear: both;
+    }
+   h3{
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+   }
+
+  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+<body class="bg-primary">
+<h1 class="text-center">About me</h1>
+<div class="container mt-5">
+    <div class="row">
+<div class="col-md-6">
+    <p class="text-light">Hi, am hellen, a passionate web developer with a strong focus on creating user friendly and visually appealing websites. I have a deep love for coding and problem solvings 
+I specialize in both frontend and backend technologies.</p>
+<p class="text-light"> Besides web developing am also passionate in graphic designs and resume writing
+I love designing visually appealing graphics,examples;banners,posters and many more.When am not coding you will find me designing beautiful
+and stunning graphics.
+</p>
+</div>
+<div class="col-md-6">
+<p class="text-light">As a web developer,Iam skilled in HTML,CSS, Javascript and modern framewoks with a focus on building responsive,user friendly websites <br>that meets the needs of clients and their audiences.
+I am always up to date with the latest trends in web development</p>
+<p class="text-light">As a resume writer,i work closely with clients to transform their experiences and skills into compelling results-driven resumes that stands out in competiive job market.<br>Whether you are seeking to revamp your existing resume or create one from scratch, iam here for you.</p>
+<p class="text-light">As a graphic designer,I create visually impactfull designs that communicate your brand's story. From logos to social media graphics, i combine creativity<br>with technicall proficiency to deliver designs that capture attention and leave a lasting impression.</p>
+</div>
+    </div>
+</div>
+<div class="container">
+  <h3 class="text-center text-decoration">some of my work</h3>
+  <div class="responsive">
+<div class="gallery">
+   <img src="pictures/birthday flyer.png" width="600" height="400">
+      </div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+     <img src="pictures/graduation.png" width="600" height="400">
+     </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+     <img src="pictures/happy.png" width="600" height="400">
+  </div>
+</div>
+</body>
+</html>
